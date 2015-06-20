@@ -14,5 +14,12 @@ $(".starter-template button").click(function(){
 
 //Show etc
 $(".glyphicon-th-large").click(function(){
-  $("footer").toggle("slow");
+  if ($("footer").css("display") === "none") {
+    $(this).css("transform","rotate(-135deg)");  
+    $("footer").fadeIn();
+  }
+  else {
+    $(this).css("transform","rotate(0deg)");
+    $("footer").fadeOut();
+  }
 })
