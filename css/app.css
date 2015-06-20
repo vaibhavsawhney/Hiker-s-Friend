@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Nunito);
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+/* Application Styles */
+body {
+  font-family: 'Montserrat', cursive;
+  position: relative;
+  background-color: rgb(52, 140, 178);
+  background-image: url(../imgs/bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.starter-template h1 {
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+#shareBar {
+  margin-top: 0;
+  float: right
+}
+
+/*Login Box*/
+
+#loginBox {
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+/*Footer*/
+span {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  color: white;
+  cursor: pointer;
+  -webkit-transform: rotate(0deg);
+  transition: all 1s;
+}
+span:hover {
+  -webkit-transform: rotate(135deg);
+}
+footer {
+  position: fixed;
+  top: 4%;
+  left: 5%;
+  width: 10%;
+  text-align: center;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+li {
+  margin: 5px auto
+}
